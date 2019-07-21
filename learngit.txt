@@ -12,3 +12,7 @@ $ git commit	//把文件提交到仓库
 $ git status	//查看仓库当前状态
 
 $ git diff	//查看修改内容
+
+$ git log	//查看版本历史记录
+
+$ git reset --hard HEAD^	//回退到上一个版本
