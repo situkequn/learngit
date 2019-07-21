@@ -40,3 +40,7 @@ $ git branch dev 	//创建分支
 $ git checkout dev	//切换分支
 
 $ git branch 		//查看当前分支
+
+$ git merge		//用于合并指定分支到当前分支
+
+$ git branch -d dev	//删除分支dev
