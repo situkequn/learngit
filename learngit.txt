@@ -33,3 +33,10 @@ $ git push -u origin master					//第一次推送master分支的所有内容
 $ git push origin master					//后期每次本地提交后，远程推送最新修改
 
 $ git clone	//从远程库克隆一个本地库
+
+$ git checkout -b dev 	//创建分支dev并切换过去
+
+$ git branch dev 	//创建分支
+$ git checkout dev	//切换分支
+
+$ git branch 		//查看当前分支
