@@ -54,3 +54,12 @@ $ git stash list 	//查看“储藏”起来的工作现场
 $ git stash apply	//恢复“储藏”起来的工作现场，但是stash内容没有删除，需用git stash drop来删除
 $ git stash pop		//恢复工作现场的同时删除“储藏”记录
 
+$ git remote		//查看远程库的信息
+$ git remote -v		//显示更详细的信息
+
+$ git pull		//抓取最新的提交
+
+$ git tag <name>	//打一个新标签
+$ git tag 		//查看所有标签
+
+$ git tag -d v0.1	//删除标签v0.1
