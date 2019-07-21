@@ -25,3 +25,9 @@ $ rm		//删除文件（工作区）
 
 $ git rm 	//删除文件（版本库）
 $ git commit
+
+$ git push	//把本地库的内容推送到远程
+
+$ git remote add origin git@server-name:path/repo-name.git	//关联一个远程库
+$ git push -u origin master					//第一次推送master分支的所有内容
+$ git push origin master					//后期每次本地提交后，远程推送最新修改
