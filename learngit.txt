@@ -18,3 +18,10 @@ $ git log	//查看版本历史记录
 $ git reset --hard HEAD^	//回退到上一个版本
 
 $ git reflog	//记录每一次命令
+
+$ git checkout --learngit.txt	//把learngit.txt文件在工作区的修改全部撤销
+
+$ rm		//删除文件（工作区）
+
+$ git rm 	//删除文件（版本库）
+$ git commit
