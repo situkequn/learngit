@@ -47,3 +47,5 @@ $ git branch -d dev	//删除分支dev
 
 $ git log --graph	//可以查看分支合并图
 
+$ git merge --no-ff -m""dev	//表示合并dev分支，但是禁用Fast forward
+
